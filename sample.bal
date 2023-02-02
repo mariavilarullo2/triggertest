@@ -3,6 +3,7 @@ import ballerina/log;
 import ballerinax/salesforce as sfdc;
 import ballerinax/slack;
 import ballerinax/trigger.salesforce as sfdcListener;
+import ballerina/org/grpc as _;
 
 // Salesforce client configuration parameters
 type OAuth2RefreshTokenGrantConfig record {
